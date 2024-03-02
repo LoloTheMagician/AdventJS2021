@@ -1,24 +1,14 @@
 {
-  "name": "advent2021",
+  "name": "adventjs2021",
   "version": "1.0.0",
-  "description": "New Repo!",
+  "description": "Ejercicios Advent of JS 2021",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "git" : "git push -u origin master"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://loloTheMagician@github.com/LoloTheMagician/AdventJS2021.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "gogapiro",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LoloTheMagician/AdventJS2021/issues"
-  },
-  "homepage": "https://github.com/LoloTheMagician/AdventJS2021#readme",
-  "devDependencies": {
-    "eslint": "^8.43.0"
-  }
+
+  "type": "module"
+
 }
