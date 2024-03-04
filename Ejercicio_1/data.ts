@@ -1,4 +1,9 @@
-const ovejas = [
+interface Oveja {
+    name: string
+    color: string
+}
+
+const ovejas: Oveja[] = [
     { name: 'Noa', color: 'azul' },
     { name: 'Euge', color: 'rojo' },
     { name: 'Navidad', color: 'rojo' },
@@ -7,4 +12,7 @@ const ovejas = [
     { name: 'Nnnnnnnn', color: 'rojo' }
 ]
 
-export default ovejas
+export {
+    ovejas,
+    Oveja
+}
