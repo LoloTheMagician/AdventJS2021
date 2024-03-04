@@ -1,4 +1,4 @@
-import ovejas from "../data.js"
+import { ovejas } from './../../dir/data.js'
 
 const contarOvejas = (ovejas) => {
     const validColor = 'rojo'
