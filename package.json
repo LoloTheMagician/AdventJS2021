@@ -4,11 +4,13 @@
   "description": "Ejercicios Advent of JS 2021",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "gogapiro",
   "license": "ISC",
-
-  "type": "module"
-
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
